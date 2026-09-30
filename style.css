@@ -87,3 +87,15 @@ html{background:#ecf7f1}
 .card.p2,.tile.p2{border-top-color:#145a85}.card.p3,.tile.p3{border-top-color:#35a6d3}
 .site-footer{background:#0b2223}
 @media(max-width:900px){nav{background:#d1ecdf}}
+
+/* ===== Smooth background + dark header ===== */
+body{background:#ecf7f1 linear-gradient(180deg,#b8e1cc 0,#c3e6d4 300px,#d1ecdf 650px,#dcf0e6 950px,#e6f4ed 1200px,#ecf7f1 1500px) no-repeat}
+.alt{background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.5) 14%,rgba(255,255,255,.5) 86%,rgba(255,255,255,0))}
+.site-header{background:#14584c;border-bottom:0;box-shadow:0 2px 14px rgba(11,34,35,.25);backdrop-filter:none}
+.brand img{height:56px;background:#fff;padding:5px 14px;border-radius:14px}
+nav a:not(.btn){color:#eaf8f0}nav a[aria-current]{border-color:#7fe0b0}nav a:not(.btn):hover{border-color:#5ec0e6}
+.nav-cta{background:#fff;color:#0f4a3d;border-color:#fff}.nav-cta:hover{background:#d8f3e6;border-color:#d8f3e6;color:#0f4a3d}
+.sub-menu a{color:var(--ink)!important}.sub-menu a:hover{background:var(--green-l)}
+.menu-btn{color:#fff;border-color:rgba(255,255,255,.55)}
+.site-footer{background:#0e3f37}
+@media(max-width:900px){nav{background:#14584c}.brand img{height:46px;padding:4px 10px}.sub-menu a{color:#eaf8f0!important}.sub-menu a:hover{background:rgba(255,255,255,.12)}}
