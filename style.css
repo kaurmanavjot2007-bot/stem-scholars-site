@@ -75,3 +75,15 @@ html{background:#f7fcf9}
 .card.p2,.tile.p2{border-top-color:#1a6f9f}.card.p3,.tile.p3{border-top-color:#5ec0e6}
 .site-footer{background:#0f2a2b}
 @media(max-width:900px){nav{background:#e4f5ec}}
+
+/* ===== A notch darker ===== */
+:root{--green:#22754b;--teal:#166f6d;--blue:#114e73;--green-l:#cfe9da;--teal-l:#cdebe9;--blue-l:#d0e8f4;--alt:rgba(255,255,255,.5);--line:#b0d5c2}
+body{background:#ecf7f1 linear-gradient(180deg,#b8e1cc 0,#d1ecdf 620px,#ecf7f1 1400px) no-repeat}
+html{background:#ecf7f1}
+.site-header{background:rgba(184,225,204,.92)}
+.hero{background:radial-gradient(620px 320px at 88% 25%,rgba(43,162,204,.28),transparent 70%),radial-gradient(560px 320px at 8% 0%,rgba(87,178,134,.38),transparent 70%)}
+.btn:hover{background:#185a3a;border-color:#185a3a}
+.card.p0,.tile.p0{border-top-color:#7cc9a2}.card.p1,.tile.p1{border-top-color:#3a9a6c}
+.card.p2,.tile.p2{border-top-color:#145a85}.card.p3,.tile.p3{border-top-color:#35a6d3}
+.site-footer{background:#0b2223}
+@media(max-width:900px){nav{background:#d1ecdf}}
