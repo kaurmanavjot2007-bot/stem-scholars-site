@@ -99,3 +99,8 @@ nav a:not(.btn){color:#eaf8f0}nav a[aria-current]{border-color:#7fe0b0}nav a:not
 .menu-btn{color:#fff;border-color:rgba(255,255,255,.55)}
 .site-footer{background:#0e3f37}
 @media(max-width:900px){nav{background:#14584c}.brand img{height:46px;padding:4px 10px}.sub-menu a{color:#eaf8f0!important}.sub-menu a:hover{background:rgba(255,255,255,.12)}}
+
+/* ===== About page type ===== */
+.hero h1:has(.line2){max-width:none}.line2{display:block;color:var(--green)}
+.quote{font-size:clamp(1.1rem,1.9vw,1.5rem);line-height:1.45}
+.prose.lg{font-size:1.15rem;line-height:1.75;max-width:62ch}
